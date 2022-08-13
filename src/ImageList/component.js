@@ -54,10 +54,6 @@ const ImageListComponent = () => {
             
         }
         f();
-        // axios.get('http://localhost:8000/api/transformation/final/').then(response => {
-        //     setImageList([...response.data.results]);
-        // });
-        // setImageList([...response.data.results]);
     }, [imageToUpload])
 
     const uploadButton = (
